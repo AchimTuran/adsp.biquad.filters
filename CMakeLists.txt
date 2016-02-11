@@ -45,7 +45,7 @@ set(DEPLIBS ${p8-platform_LIBRARIES}
             ${ASPLIB_LIBRARIES}
             ${TINYXML_LIBRARIES})
 
-build_addon(adsp.biquad.filters BIQUAD_SOURCES DEPLIBS)
+build_addon(adsp.biquad.filters BIQUAD DEPLIBS)
 
 # For generating the doxy
 find_package(Doxygen)
